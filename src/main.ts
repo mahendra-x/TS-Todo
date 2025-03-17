@@ -6,8 +6,6 @@ const todoList = document.getElementById("todo-list") as HTMLUListElement;
 
 todoAdd.addEventListener("click", () => {
   const listId = `todo-item-${Date.now()}`;
-  console.log('listId', listId);
-  
   const todoText = todoInput.value;
   todoInput.value = "";
   const li = document.createElement("li");

@@ -2,6 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+/* #todo-list .checked { */
+  /* text-decoration: line-through; */
+  /* text-transform: uppercase; */
+/* } */
+
 #todo-list .checked {
   text-decoration: line-through;
 }
